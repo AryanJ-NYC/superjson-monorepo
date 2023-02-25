@@ -1,0 +1,17 @@
+{
+  "name": "super-json-monorepo-example",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Aryan Jabbari",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn workspace admin build",
+    "dev": "yarn workspace admin dev",
+    "start": "yarn workspace admin start"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}

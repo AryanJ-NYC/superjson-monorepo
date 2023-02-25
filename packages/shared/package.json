@@ -1,0 +1,12 @@
+{
+  "name": "shared",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Aryan Jabbari",
+  "license": "MIT",
+  "dependencies": {
+    "next-superjson-plugin": "^0.5.5",
+    "react": "^18.2.0",
+    "superjson": "^1.12.2"
+  }
+}
